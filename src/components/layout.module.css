@@ -54,3 +54,10 @@
   list-style: none;
   list-style-type: none;
 }
+
+h3.page-subtitle {
+  color: var(--gray2);
+  float: right;
+  font-size: 92%;
+  font-style: italic;
+}

@@ -4,7 +4,7 @@
     --gray2: gray;
     --gray3: dimgray;
     --link-color: DarkTurquoise;
-    --link-color-on: Turquoise;
+    --link-color-on: DeepPink;
 }
 
 /*******************************************************************************
@@ -30,7 +30,7 @@ a:visited {
 
 a:hover {
     color: var(--link-color-on);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 body {
@@ -66,14 +66,12 @@ html {
     font-family: "AHAMONO-Regular", monospace;
 }
 
-a {
-    color: var(--link-color);
+/* a {
     text-decoration: underline solid transparent;
     transition: text-decoration 0.33s ease;
-    white-space: nowrap;
 }
 
 a:hover {
     text-decoration: underline solid currentColor;
     transition: text-decoration 0s ease;
-}
+} */

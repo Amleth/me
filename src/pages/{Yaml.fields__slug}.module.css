@@ -23,6 +23,10 @@
     padding: 0;
 }
 
+.content>ul>li {
+    margin: 0.15em 0;
+}
+
 .content ul>li:before {
     color: var(--gray3);
     content: "-";
@@ -42,16 +46,13 @@
 
 .links a {
     margin: 0 0.2em;
-    text-decoration: none;
+
 }
 
 .links a:hover .linkText {
     color: var(--link-color-on);
 }
 
-.rub-el-hizb {
-    color: var(--gray0);
-    font-size: 30px;
-    padding: 50px 0;
-    text-align: center;
+.linksList * {
+    font-size: 98%;
 }

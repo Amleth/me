@@ -2,11 +2,19 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from '../components/layout'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { content, links, linkText, rubElHizb } from './{Yaml.fields__slug}.module.css'
+import { content, links, linkText, linksList } from './{Yaml.fields__slug}.module.css'
 
 let k = 0
 
-function makeLinks(item, getSubLinksLabel = false) {
+const makeURL = (item, getSubLinksLabel = false) => <a key={k++} href={item.u} target="_blank" rel="noreferrer">
+  {
+    item.l
+      ? <><FontAwesomeIcon icon="link" />{getSubLinksLabel && <span className={linkText}>({item.l})</span>}</>
+      : <span className={linkText}>{item.u.replace('https://www.reddit.com', '')}</span>
+  }
+</a>
+
+function makeInlineLinks(item, getSubLinksLabel = false) {
   const links = []
 
   if (item.hasOwnProperty("bc"))
@@ -19,6 +27,12 @@ function makeLinks(item, getSubLinksLabel = false) {
     links.push(
       <a key={k++} href={item.in} target="_blank" rel="noreferrer">
         <FontAwesomeIcon icon={['fab', 'instagram']} />
+      </a>
+    )
+  if (item.hasOwnProperty("re"))
+    links.push(
+      <a key={k++} href={item.re} target="_blank" rel="noreferrer">
+        <FontAwesomeIcon icon={['fab', 'reddit-alien']} />
       </a>
     )
   if (item.hasOwnProperty("sc"))
@@ -45,23 +59,18 @@ function makeLinks(item, getSubLinksLabel = false) {
         <FontAwesomeIcon icon={['fab', 'youtube']} />
       </a>
     )
-  if (item.hasOwnProperty('links'))
-    for (const link of item.links)
-      links.push(makeLinks(link, true))
-
   if (item.hasOwnProperty("u")) {
-    let linkLabel = item.l
-    links.unshift(<a key={k++} href={item.u} target="_blank" rel="noreferrer">
-      {
-        item.l
-          ? <><FontAwesomeIcon icon="link" />{getSubLinksLabel && <span className={linkText}>({linkLabel})</span>}</>
-          : <span className={linkText}>{item.u}</span>
-      }
-    </a>)
+    links.unshift(makeURL(item, getSubLinksLabel))
   }
 
-  if (links.length > 0)
-    return links
+  if (links.length > 0) return links
+}
+
+function makeListOfLinks(item) {
+  if (item.hasOwnProperty('links')) {
+    let key = 0
+    return <ul>{item.links.map(item => <li key={key++}>{makeURL(item)}</li>)}</ul>
+  }
 }
 
 function makeContent(c, depth) {
@@ -92,8 +101,11 @@ function makeContent(c, depth) {
               <li key={k++}>
                 <span>{item.l}</span>
                 <span key={k++} className={links}>
-                  {makeLinks(item)}
+                  {makeInlineLinks(item)}
                 </span>
+                <div className={linksList}>
+                  {makeListOfLinks(item)}
+                </div>
                 {item.hasOwnProperty("i") && (
                   <ul key={k++}>
                     {item.i.map(subitem => {
@@ -125,9 +137,8 @@ function makeContent(c, depth) {
 export default function C({ data }) {
   const userContent = JSON.parse(data.yaml.fields.json)
   return (
-    <Layout pageTitle={data.yaml.title} taggedWith={data.yaml.tags}>
+    <Layout pageTitle={data.yaml.title} pageSubtitle={data.yaml.subtitle} taggedWith={data.yaml.tags}>
       <div className={content}>{makeContent(userContent, 0)}</div>
-      <div className={rubElHizb}>۞</div>
     </Layout>
   )
 }
@@ -137,6 +148,7 @@ export const query = graphql`
   query($id: String) {
     yaml(id: { eq: $id }) {
       title
+      subtitle
       tags
       fields {
         json

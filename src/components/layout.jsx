@@ -7,7 +7,8 @@ import {
   pageTaggedWith,
   right,
   siteTitle,
-  allTagsTagTotalCount
+  allTagsTagTotalCount,
+  pageSubtitle as pageSubtitleStyle
 } from './layout.module.css'
 import { useSiteMetadata } from "../hooks/use-site-metadata"
 import { useTags } from "../hooks/use-tags"
@@ -17,7 +18,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
 library.add(fab, faLink)
 
-const Layout = ({ children, pageTitle, taggedWith }) => {
+const Layout = ({ children, pageTitle, pageSubtitle, taggedWith }) => {
   const { title } = useSiteMetadata()
   const allTags = useTags()
 
@@ -37,6 +38,7 @@ const Layout = ({ children, pageTitle, taggedWith }) => {
       <div className={right}>
         <header>
           <h2>{pageTitle}</h2>
+          {pageSubtitle && <h3 className={pageSubtitleStyle}>————&nbsp;{pageSubtitle}</h3>}
           {taggedWith && <div className={pageTaggedWith}>tags: {taggedWith.sort().join(", ")}</div>}
         </header>
         <main>

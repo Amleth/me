@@ -29,8 +29,7 @@ s:
         u: http://emmalorienspinelli.bandcamp.com/music
       - l: Peter Cusack
         links:
-          - l: Sounds From Dangerous Places
-            u: http://sounds-from-dangerous-places.org/
+          - u: http://sounds-from-dangerous-places.org/
   - t: Human activities
     i:
       - l: Sounds of Europe

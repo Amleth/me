@@ -3,12 +3,11 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `توماس`,
+    title: `توما`,
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: [
     "gatsby-plugin-emotion",
-    "gatsby-plugin-google-gtag",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
     {
