@@ -1,5 +1,3 @@
-- Le site [Neon Vice](http://www.neonvice.com/)
-- [Un fil intéressant sur anafrog](http://forum.anafrog.com/phpBB/viewtopic.php?f=23&t=10196)
 - [Index de groupes de synthwave](http://rateyourmusic.com/genre/Synthwave/1)
 - [Une sympathique compil](http://decibelmagazine.com/blog/rise-of-the-machines)
 - An article about [Screenhead](http://www.screenhead.com/synthwave-rise-of-retro-electronic-music/)
