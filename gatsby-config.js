@@ -2,9 +2,10 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: '/me',
   siteMetadata: {
     title: `توما`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://amleth.github.io/me`
   },
   plugins: [
     "gatsby-plugin-emotion",
