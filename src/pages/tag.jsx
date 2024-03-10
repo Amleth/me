@@ -34,21 +34,23 @@ export default function C({ pageContext, data }) {
           </tr>
         </thead>
         <tbody>
-          {data.allYaml.edges.map(node => (
-            <tr key={node.node.id}>
-              <td>
-                {node.node.title}
-              </td>
-              <td>
-                <Link to={"/" + node.node.fields.slug}>
-                  /{node.node.fields.slug}
-                </Link>
-              </td>
-              <td>
-                {node.node.tags.sort().join(", ")}
-              </td>
-            </tr>
-          ))}
+          {data.allYaml.edges
+            .filter(node => !node.node.fields.slug.startsWith('_'))
+            .map(node => (
+              <tr key={node.node.id}>
+                <td>
+                  {node.node.title}
+                </td>
+                <td>
+                  <Link to={"/" + node.node.fields.slug} style={{ whiteSpace: 'nowrap' }}>
+                    /{node.node.fields.slug}
+                  </Link>
+                </td>
+                <td>
+                  {node.node.tags.sort().join(", ")}
+                </td>
+              </tr>
+            ))}
         </tbody>
       </table>
     </ Layout>

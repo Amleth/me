@@ -42,7 +42,9 @@ exports.createPages = ({ graphql, actions }) => {
   `).then(result => {
     result.data.allYaml.edges.forEach(edge => {
       edge.node.tags.forEach(tag => {
-        tagSet.add(tag)
+        if (!edge.node.fields.slug.startsWith("_")) {
+          tagSet.add(tag)
+        }
       })
     })
     tagSet.forEach(tag => {
