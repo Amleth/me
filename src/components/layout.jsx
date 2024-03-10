@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import {
-  allTagsList,
+  allTagsTable,
   body,
   left,
   pageTaggedWith,
@@ -26,14 +26,14 @@ const Layout = ({ children, pageTitle, pageSubtitle, taggedWith }) => {
     <div className={body}>
       <div className={left}>
         <h1 className={siteTitle}>{title}</h1>
-        <ul className={allTagsList}>
-          {allTags.map(_ => (
-            <li key={_.fieldValue}>
-              <Link to={"/tag/" + _.fieldValue}>{_.fieldValue}</Link>{" "}
-              <span className={allTagsTagTotalCount}>({_.totalCount})</span>
-            </li>
-          ))}
-        </ul>
+        <table className={allTagsTable}>
+          <tbody>
+            {allTags.map(_ => <tr key={_.fieldValue}>
+              <td><Link to={"/tag/" + _.fieldValue}>{_.fieldValue}</Link>{" "}</td>
+              <td className={allTagsTagTotalCount}>{_.totalCount}</td>
+            </tr>)}
+          </tbody>
+        </table>
       </div>
       <div className={right}>
         <header>

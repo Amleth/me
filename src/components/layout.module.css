@@ -50,14 +50,23 @@
   color: var(--gray1);
 }
 
-.all-tags-list {
-  list-style: none;
-  list-style-type: none;
-}
-
 h3.page-subtitle {
   color: var(--gray2);
   float: right;
   font-size: 92%;
   font-style: italic;
+}
+
+table.allTagsTable,
+table.allTagsTable tr,
+table.allTagsTable td {
+  border: none;
+}
+
+table.allTagsTable {
+  float: right;
+}
+
+table.allTagsTable td {
+  padding: 0 0 0 0.5em;
 }

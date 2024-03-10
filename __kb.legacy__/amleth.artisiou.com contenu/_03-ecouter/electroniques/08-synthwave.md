@@ -1,283 +1,207 @@
-- [Index de groupes de synthwave](http://rateyourmusic.com/genre/Synthwave/1)
-- [Une sympathique compil](http://decibelmagazine.com/blog/rise-of-the-machines)
-- An article about [Screenhead](http://www.screenhead.com/synthwave-rise-of-retro-electronic-music/)
-- [Talking To Gjosts Podcast](http://www.talkingtoghosts.com/)
-- [Oliver A. May's Bandcamp](http://bandcamp.com/olivermay)
-- [ Allan's favorites ] at Aquarius Records](https://www.aquariusrecords.org/cat/allan.html)
-- [Tag "john carpenter" on Bandcamp](https://bandcamp.com/tag/john-carpenter?sort_field=pop)
-- [A cool playlist](https://play.spotify.com/user/occultrock/playlist/0mygBTcUo5CcyNEnKw1ZD1)
-- [Synthwave/NewRetroWave/Darksynth Music Radio 24h/7d Stream !](https://www.youtube.com/watch?v=QfmzCVsE6Pg&list=WL)
-- [Grimrik Bandcamp followed](https://bandcamp.com/Grimrik/following)
-- [synthesizer tag on Bandcamp](https://bandcamp.com/tag/synthesizer)
-- [killerkabob 'Synthwave, Dark Synthwave, and Retrowave' playlist on Soundcloud](https://soundcloud.com/killerkabob/sets/synthwave-1)
-- Compilations :
-  - [The Rise Of The Synths (Official Companion Album) EP 1](https://lakeshorerecords.bandcamp.com/album/the-rise-of-the-synths-official-companion-album-ep-1)
-  - [The Rise Of The Synths (Official Companion Album) EP 2](https://lakeshorerecords.bandcamp.com/album/the-rise-of-the-synths-official-companion-album-ep-2)
-
-## Cool forum threads
-
-  - [SYNTHWAVE/ DARKWAVE recommendations (spin the blackest circles)](http://www.spintheblackestcircles.com/bb/viewtopic.php?f=23&t=33808)
-  - ["John carpenter and 80 synth fans" (THEB9)](http://www.theb9.com/board/viewtopic.php?f=2&t=951960#.VvqwRfmLS70)
-  - ["Carpenter Brut, Perturbator and the SynthWave scene."" (Metalireland)](http://www.metalireland.com/community/viewtopic.php?f=11&t=64458&sid=0401a6743ddebceac698d46e8d041c0d)
-  - ["80s style synth-pop/electro synth/cyberpunk music" (neogaf.com)](http://www.neogaf.com/forum/showthread.php?t=551396)
-  - [retrowave/synthwave (Muffwiggler)](https://www.muffwiggler.com/forum/viewtopic.php?t=159528)
-
-## Great playlists
-
-- ["Horrorsynth, fourampers (SoundCloud)](https://soundcloud.com/fourampers/sets/horrorsynth)
-
-## Events
-
-- [Festival Synthzilla](http://synthzillafest.fr/)
-
-## Labels
-
-- Aphasia Records
-	[site officiel](http://www.aphasia-records.com)
-  [Bandcamp](http://aphasiarecords.bandcamp.com/music)
-	[Soundcloud](https://soundcloud.com/aphasia-records)
-- Future 80's Records (Bucarest)
-  [Bandcamp](https://future80s.bandcamp.com/music)
-- Giallo Disco Records
-  [Bandcamp](https://giallodiscorecords.bandcamp.com/music)
-- Heavy Chains Records & Tapes
-	[Site officiel](http://www.heavychainsrecords.com)
-	[Blog](https://heavychainsrecords.wordpress.com)
-	[Bandcamp](https://heavychainsrecords.bandcamp.com/music)
-- Spun out of control
-  [Bandcamp](https://spunoutofcontrol.bandcamp.com/music)
-
-## Culture
-
-- [80s film soundtracks with a synthwave vibe](https://www.reddit.com/r/synthwaveproducers/comments/478jup/80s_film_soundtracks_with_a_synthwave_vibe/)
-- [SYNTH STUFF Ep.#1 | A History of Synthwave](https://www.youtube.com/watch?v=k3brwm9OLEA)
-
-## Sub-genres
-
-### Dungeon Synth
-
-#### Websites
-
-- [Barbarian Skull (Dungeon Synth/Underground Music Webzine)](http://www.barbarianskull.com/wp/)
-- [Dark synthwave (tumblr)](https://www.tumblr.com/search/dark%20synthwave)
-- [Dungeon Synth Wiki](http://dungeonsynth.wikia.com/wiki/Dungeon_Synth_Wiki)
-- [Echoes from the Dungeon](http://dungeon-synth.tumblr.com/)
-- [Hollywood Metal Dungeon Synth Review by Kaptain Carbon](http://hollywoodmetal.com/dungeon-synth/)
-
-#### Labels
-
-- [Heimat Der Katastrophe](https://heimatderkatastrophe.bandcamp.com/music)
-
-#### Artists
-
-- Abandoned places
-  [bandcamp](https://abandonedplaces.bandcamp.com/music)
-- Aelvar
-  [bandcamp](https://aelvar.bandcamp.com/music)
-- Dronn (is Gregorio Franco)
-  [Bandcamp](https://dronn.bandcamp.com)
-- Gnoll
-  bc: https://heimatderkatastrophe.bandcamp.com/
-  https://heimatderkatastrophe.bandcamp.com/merch/dungeon-synth-fan-badge
-- Grimrik
-  [Bandcamp](https://grimrik.bandcamp.com/music)
-- https://www.youtube.com/watch?v=ZKa5LwFgAOA&list=WL&index=35&t=0s
-
-## Artists
-
-- 26six Hundred
-  [Bandcamp](https://20sixhundred.bandcamp.com/music)
-- 26Hate
-	[Soundcloud](https://soundcloud.com/26hate)
-	[Bandcamp](http://26hate.bandcamp.com/releases)
-- 3Force
-  [bandcamp](https://3force.bandcamp.com/music)
-- Act Razer
-  [Bandcamp](https://actrazer.bandcamp.com/)
-- Aeternus
-	[Bandcamp](http://aphasiarecords.bandcamp.com/album/aeternus)
-- Alex
-  [Soundcloud](https://soundcloud.com/alex-davidsonmusic)
-  [Bandcamp](https://newretrowave.bandcamp.com/album/blood-club)
-- Angel Dust Dealers
-  [Bandcamp](https://angeldustdealers.bandcamp.com/music)
-  [Soundcloud](https://soundcloud.com/angeldustdealers)
-  [Weird-Ass VHS Cult B-Movies Mixtape (Soundcloud)](https://soundcloud.com/rendezvousla/angel-dust-dealers-vhs-mix)
-- Barnett* + Coloccia*
-  - [Weld (bandcamp)](https://blackesteverblack.bandcamp.com/album/weld-3)
-- Carpenter Brut
-  [Carpenter Brut](http://carpenterbrut.bandcamp.com/music)
-- Christian Bergagna
-  [Bandcamp](https://cristianbergagna.bandcamp.com/music)
-  [Soundcloud](https://soundcloud.com/cbergagna)
-- Code Elektro
-  [Site officiel](http://www.codeelektro.com/)
-  [Soundcloud](https://soundcloud.com/code-elektro)
-- Confrontational
+- l: 26six Hundred
+  bc: https://20sixhundred.bandcamp.com/music
+- l: 26Hate
+	sc: https://soundcloud.com/26hate
+	bc: http://26hate.bandcamp.com/releases
+- l: 3Force
+  bc: https://3force.bandcamp.com/music
+- l: Act Razer
+  bc: https://actrazer.bandcamp.com/
+- l: Aeternus
+	bc: http://aphasiarecords.bandcamp.com/album/aeternus
+- l: Alex
+  sc: https://soundcloud.com/alex-davidsonmusic
+  bc: https://newretrowave.bandcamp.com/album/blood-club
+- l: Angel Dust Dealers
+  bc: https://angeldustdealers.bandcamp.com/music
+  sc: https://soundcloud.com/angeldustdealers
+  - links:
+      - u: https://soundcloud.com/rendezvousla/angel-dust-dealers-vhs-mix
+- l: Barnett* + Coloccia*
+  links:
+    -u: https://blackesteverblack.bandcamp.com/album/weld-3
+- l: Carpenter Brut
+  - u: http://carpenterbrut.bandcamp.com/music
+- l: Christian Bergagna
+  bc: https://cristianbergagna.bandcamp.com/music
+  sc: https://soundcloud.com/cbergagna
+- l: Code Elektro
+  - u: http://www.codeelektro.com/
+  sc: https://soundcloud.com/code-elektro
+- l: Confrontational
  	[Site officiel](http://www.confrontational.net/)
-  [Bandcamp](http://confrontational.bandcamp.com/)
-  [Soundcloud](https://soundcloud.com/2confrontational)
-  [Youtube](https://www.youtube.com/user/2confrontational)
-- Crypt Vapor
-  [Tombe Della Città (Bandcamp)](https://heavychainsrecords.bandcamp.com/album/tombe-della-citt)
-  [Interview](http://noisey.vice.com/en_au/blog/listen-to-the-horror-film-soundtrack-inspired-darkness-of-crypt-vapor)
-- Dallas Campbell
-	[Soundcloud](https://soundcloud.com/dallas-campbell)
-- Daniel Deluxe
-	[Bandcamp](http://danieldeluxe.bandcamp.com/music)
-	[Soundcloud](https://soundcloud.com/daniel-deluxe)
-- DATA Stream (Martyn Stonehouse)
-  [Website](https://martynstonehouse.com/)
-  [Bandcamp](http://datastream.bandcamp.com/)
-  [Soundcloud](https://soundcloud.com/martynaudio)
-  [Vimeo](https://vimeo.com/martynstonehouse)
-  [Twitter](https://twitter.com/martynaudio)
-- Division 2083
-  [Bandcamp](http://division83.bandcamp.com)
-- Dynatron
-	[Bandcamp](https://dynatron.bandcamp.com/)
-- Drokk (Geoff Barrow & Ben Salisbury)
-  [Bandcamp](https://drokk.bandcamp.com/)
-- Floydshayvious
-	[Bandcamp](https://floydshayvious.bandcamp.com/)
-	[Soundcloud](https://soundcloud.com/floydshayvious)
-- Gavino moretti
-  [Bandcamp](https://diskonero.bandcamp.com/album/the-satan-complex)
-- Gregorio Franco
-  [Bandcamp](https://gregoriofranco.bandcamp.com/)
-- Hexenkraft
-  [Bandcamp](https://hexenkraft.bandcamp.com/music)
-- John Carpenter
-  [Lost Themes @ Sacred Bones Records](http://johncarpenter.sacredbonesrecords.com/)
-  [Bandcamp](https://johncarpentermusic.bandcamp.com/)
-- Jupiter 8
-  [Bandcamp](https://jupiter-8.bandcamp.com/music)
-- Karate King
-  ["Nightmare Vision: Music for Film" (soundcloud)](https://karatekingmusic.bandcamp.com/album/nightmare-vision-music-for-film)
-- Kjerkestappen (Dan Terminus side project)
-  [Soundcloud](https://soundcloud.com/kjerkestappen)
-- Label Telefuture
-  [Bandcamp](https://telefuturenow.bandcamp.com/music)
-- LazerHawk
-  [Bandcamp](https://lazerhawk.bandcamp.com/)
-  [Soundcloud](https://soundcloud.com/lazerhawk)
-- Leslie Nayoko
-  [Bandcamp](https://leslienayoko.bandcamp.com)
-- Lost Year
-  [Bandcamp](https://rossocorsarecords.bandcamp.com/music)
-- Lueur Verte
-  [Soundcloud](https://soundcloud.com/lueur-verte)
-  [Bandcamp](https://lueurverte.bandcamp.com/)
-- Magic Sword
-  [Soundcloud](https://soundcloud.com/magic-sword)
-  [Bandcamp](https://magic-sword.bandcamp.com/music)
-  [Site officiel](http://www.magicswordmusic.com/)
-- The Magus
-  [Bandcamp](https://themagusdistro.bandcamp.com/music)
-- Makeup and Vanity Set
-  [Bandcamp](https://makeupandvanityset.bandcamp.com/music)
-- Matthew Akers
-  [Blog](http://futurebarbarian.blogspot.fr/)
-  [Bandcamp](https://matthewakers.bandcamp.com/music)
-  [Soundcloud](https://soundcloud.com/forced-opinion)
-  [A History Of Arson (2014)](https://matthewakers.bandcamp.com/album/a-history-of-arson)
-  [Mythical Abyss Revisited Repress (2015)](https://matthewakers.bandcamp.com/album/mythical-abyss-revisited-repress)
-- Megadrive
-  [Bandcamp](https://megadrive.bandcamp.com/)
-- Megahammer
-  [Bandcamp](https://megahammer.bandcamp.com/)
-- Meteor
-  [Soundcloud](https://soundcloud.com/whoismeteor)
-- Midnight
-	[Bandcamp](https://midnight5.bandcamp.com/music)
-- Mitch Murder
-	[Soundcloud](https://soundcloud.com/daataa)
-- Mogi Grumbles
-  [Bandcamp](https://mogigrumbles.bandcamp.com/music)
-- Neon Vandal
-	[Bandcamp](http://neonvandal.bandcamp.com/music)
-	[Soundcloud](https://soundcloud.com/neonvandal)
-- Night Crawler Music
-  [Bandcamp](https://nightcrawler.bandcamp.com/music)
-- Nightsatan and the Loops of Doom
-  [Bandcamp](https://nightsatan.bandcamp.com/)
-- Occams Laser
-  [Bandcamp](https://occamslaser.bandcamp.com/music)
-- OGRE
-	[The Psychic Zero @ Bandcamp](https://ogresound.bandcamp.com/album/the-psychic-zero)
-	[The Cosmic Fugue @ Bandcamp](https://ogresound.bandcamp.com/album/the-cosmic-fugue)
-  [Bandcamp](https://spunoutofcontrol.bandcamp.com/album/all-hallows-2)
-- OGRE & Dallas Campbell
-  [Beyond the Infinite, OGRE & Dallas Campbell, Bandcamp](https://telefuturenow.bandcamp.com/album/beyond-the-infinite)
-  [All Hallows'](https://ogresound.bandcamp.com/album/all-hallows)
-- Paladin
-  [Bandcamp](https://chrispaladin.bandcamp.com/music)
-- Perturbator
-  [Bandcamp](https://perturbator.bandcamp.com/music)
-  [Soundcloud](https://soundcloud.com/perturbator)
-  [New Model (2017)](https://www.youtube.com/watch?v=qEoxu0_8uZU)
-- Powder Slut
-  [Bandcamp](https://powderslut.bandcamp.com/releases)
-- Powerglove
-  [Soundcloud](https://soundcloud.com/powerglove)
-- Protector 101
-  [Bandcamp](https://protector101.bandcamp.com)
-  [Soundcloud](https://soundcloud.com/protector-101)
-  [Hunter's Journey EP (Aphasia Records Bandcamp)](https://aphasiarecords.bandcamp.com/album/hunters-journey-ep)
-- Red Marker
-	[Soundcloud](https://soundcloud.com/red-marker)
-	[Bandcamp](https://redmarker.bandcamp.com/)
-- Retro promenade
-  [Bandcamp](https://retropromenade.bandcamp.com/music)
-  [The Next Peak](http://retropromenade.bandcamp.com/album/the-next-peak-vol-i-twin-peaks-tribute)
-- Rogue Hotline
-  [Soundcloud](https://soundcloud.com/rogue_hotline)
-  [Bandcamp](https://roguehotline.bandcamp.com/releases)
-- Ron Cannon
-  [Bandcamp](https://roncannon.bandcamp.com/music)
-- Sektor Hymn
-  [Bandcamp](https://sektorhymn.bandcamp.com/releases)
-- Sellorekt
-  [Bandcamp](https://ladreams.bandcamp.com/)
-  [Soundcloud](https://soundcloud.com/sellorekt)
-- Sonic Synergist
-  [Bandcamp](https://sonicsynergist.bandcamp.com/)
-  [Soundcloud](https://soundcloud.com/sonicsynergist)
-- Sprinter
-  [Bandcamp](https://sprintermusic.bandcamp.com)
-- SSleeperhold
-  [Bandcamp](https://ssleeperhold.bandcamp.com/)
-- Steeve Moore
-	[Bandcamp](https://stevemoore2600.bandcamp.com/)
-- Stilz
-  [Bandcamp](http://stilz.bandcamp.com/)
-- S U R V I V E
-  [Bandcamp](http://survive.bandcamp.com/music)
-  [Soundcloud](https://soundcloud.com/relapserecords/01-survive-ahb)
-- The Neo Satanic Acid Cult
-  [Bandcamp](https://theneosatanicacidcult.bandcamp.com/music)
-- The TCR
-	[Soundcloud](https://soundcloud.com/tcr-7)
-- Tommy '86
-	[Website](http://tommy86.com/)
-	[Bandcamp](https://tommy86.bandcamp.com/music)
-  [Soundcloud](https://soundcloud.com/tommy-music)
-- Troller
-  [Bandcamp](https://troller.bandcamp.com)
-- Umberto
-  [Bandcamp](https://umberto.bandcamp.com/)
-- Unit Black Flight
-  [Bandcamp](https://unitblackflight.bandcamp.com/)
-  [Soundcloud](https://soundcloud.com/unitblackflight)
-- Vector Hold
-  [Bandcamp](https://vectorhold.bandcamp.com/)
-- Vellocet
-  [Bandcamp](https://vellocetstrain.bandcamp.com/releases)
-- VHS glitch
-  [Bandcamp](https://vhsglitch.bandcamp.com/)
-- Vincenzo Oscillato
-  [Soundcloud](https://soundcloud.com/vincenzo-oscillato)
-- Volkor X
-  [Bandcamp](https://volkorx.bandcamp.com/music)
-- Zombi
-  [Bandcamp](https://zombi.bandcamp.com/music)
+  bc: http://confrontational.bandcamp.com/
+  sc: https://soundcloud.com/2confrontational
+  - yt: https://www.youtube.com/user/2confrontational
+- l: Crypt Vapor
+  links:
+    - u: https://heavychainsrecords.bandcamp.com/album/tombe-della-citt
+    - u: http://noisey.vice.com/en_au/blog/listen-to-the-horror-film-soundtrack-inspired-darkness-of-crypt-vapor
+- l: Dallas Campbell
+	sc: https://soundcloud.com/dallas-campbell
+- l: Daniel Deluxe
+	bc: http://danieldeluxe.bandcamp.com/music
+	sc: https://soundcloud.com/daniel-deluxe
+- l: DATA Stream (Martyn Stonehouse)
+  - u: https://martynstonehouse.com/
+  bc: http://datastream.bandcamp.com/
+  sc: https://soundcloud.com/martynaudio
+  - links:
+    -u: https://vimeo.com/martynstonehouse
+- l: Division 2083
+  bc: http://division83.bandcamp.com
+- l: Dynatron
+	bc: https://dynatron.bandcamp.com/
+- l: Drokk (Geoff Barrow & Ben Salisbury)
+  bc: https://drokk.bandcamp.com/
+- l: Floydshayvious
+	bc: https://floydshayvious.bandcamp.com/
+	sc: https://soundcloud.com/floydshayvious
+- l: Gavino moretti
+  bc: https://diskonero.bandcamp.com/album/the-satan-complex
+- l: Gregorio Franco
+  bc: https://gregoriofranco.bandcamp.com/
+- l: Hexenkraft
+  bc: https://hexenkraft.bandcamp.com/music
+- l: John Carpenter
+  links:
+    -u: http://johncarpenter.sacredbonesrecords.com/
+  bc: https://johncarpentermusic.bandcamp.com/
+- l: Jupiter 8
+  bc: https://jupiter-8.bandcamp.com/music
+- l: Karate King
+  links:
+    - u: https://karatekingmusic.bandcamp.com/album/nightmare-vision-music-for-film
+- l: Kjerkestappen (Dan Terminus side project)
+  sc: https://soundcloud.com/kjerkestappen
+- l: Label Telefuture
+  bc: https://telefuturenow.bandcamp.com/music
+- l: LazerHawk
+  bc: https://lazerhawk.bandcamp.com/
+  sc: https://soundcloud.com/lazerhawk
+- l: Leslie Nayoko
+  bc: https://leslienayoko.bandcamp.com
+- l: Lost Year
+  bc: https://rossocorsarecords.bandcamp.com/music
+- l: Lueur Verte
+  sc: https://soundcloud.com/lueur-verte
+  bc: https://lueurverte.bandcamp.com/
+- l: Magic Sword
+  sc: https://soundcloud.com/magic-sword
+  bc: https://magic-sword.bandcamp.com/music
+  u: http://www.magicswordmusic.com/
+- l: The Magus
+  bc: https://themagusdistro.bandcamp.com/music
+- l: Makeup and Vanity Set
+  bc: https://makeupandvanityset.bandcamp.com/music
+- l: Matthew Akers
+  links:
+    - u: http://futurebarbarian.blogspot.fr/
+    - u: https://matthewakers.bandcamp.com/album/a-history-of-arson7
+    - u: https://matthewakers.bandcamp.com/album/mythical-abyss-revisited-repress
+  bc: https://matthewakers.bandcamp.com/music
+  sc: https://soundcloud.com/forced-opinion
+- l: Megadrive
+  bc: https://megadrive.bandcamp.com/
+- l: Megahammer
+  bc: https://megahammer.bandcamp.com/
+- l: Meteor
+  sc: https://soundcloud.com/whoismeteor
+- l: Midnight
+	bc: https://midnight5.bandcamp.com/music
+- l: Mitch Murder
+	sc: https://soundcloud.com/daataa
+- l: Mogi Grumbles
+  bc: https://mogigrumbles.bandcamp.com/music
+- l: Neon Vandal
+	bc: http://neonvandal.bandcamp.com/music
+	sc: https://soundcloud.com/neonvandal
+- l: Night Crawler Music
+  bc: https://nightcrawler.bandcamp.com/music
+- l: Nightsatan and the Loops of Doom
+  bc: https://nightsatan.bandcamp.com/
+- l: Occams Laser
+  bc: https://occamslaser.bandcamp.com/music
+- l: OGRE
+	links:
+    - u: https://ogresound.bandcamp.com/album/the-psychic-zero
+	  - u: https://ogresound.bandcamp.com/album/the-cosmic-fugue
+  bc: https://spunoutofcontrol.bandcamp.com/album/all-hallows-2
+- l: OGRE & Dallas Campbell
+  links:
+    - u: https://telefuturenow.bandcamp.com/album/beyond-the-infinite
+    - u: https://ogresound.bandcamp.com/album/all-hallows
+- l: Paladin
+  bc: https://chrispaladin.bandcamp.com/music
+- l: Perturbator
+  bc: https://perturbator.bandcamp.com/music
+  sc: https://soundcloud.com/perturbator
+  links:
+    - u: https://www.youtube.com/watch?v=qEoxu0_8uZU
+- l: Powder Slut
+  bc: https://powderslut.bandcamp.com/releases
+- l: Powerglove
+  sc: https://soundcloud.com/powerglove
+- l: Protector 101
+  bc: https://protector101.bandcamp.com
+  sc: https://soundcloud.com/protector-101
+  links:
+    - u: https://aphasiarecords.bandcamp.com/album/hunters-journey-ep
+- l: Red Marker
+	sc: https://soundcloud.com/red-marker
+	bc: https://redmarker.bandcamp.com/
+- l: Retro promenade
+  bc: https://retropromenade.bandcamp.com/music
+  links:
+    - u: http://retropromenade.bandcamp.com/album/the-next-peak-vol-i-twin-peaks-tribute
+- l: Rogue Hotline
+  sc: https://soundcloud.com/rogue_hotline
+  bc: https://roguehotline.bandcamp.com/releases
+- l: Ron Cannon
+  bc: https://roncannon.bandcamp.com/music
+- l: Sektor Hymn
+  bc: https://sektorhymn.bandcamp.com/releases
+- l: Sellorekt
+  bc: https://ladreams.bandcamp.com/
+  sc: https://soundcloud.com/sellorekt
+- l: Sonic Synergist
+  bc: https://sonicsynergist.bandcamp.com/
+  sc: https://soundcloud.com/sonicsynergist
+- l: Sprinter
+  bc: https://sprintermusic.bandcamp.com
+- l: SSleeperhold
+  bc: https://ssleeperhold.bandcamp.com/
+- l: Steeve Moore
+	bc: https://stevemoore2600.bandcamp.com/
+- l: Stilz
+  bc: http://stilz.bandcamp.com/
+- l: S U R V I V E
+  bc: http://survive.bandcamp.com/music
+  sc: https://soundcloud.com/relapserecords/01-survive-ahb
+- l: The Neo Satanic Acid Cult
+  bc: https://theneosatanicacidcult.bandcamp.com/music
+- l: The TCR
+	sc: https://soundcloud.com/tcr-7
+- l: Tommy '86
+	u: http://tommy86.com/
+	bc: https://tommy86.bandcamp.com/music
+  sc: https://soundcloud.com/tommy-music
+- l: Troller
+  bc: https://troller.bandcamp.com
+- l: Umberto
+  bc: https://umberto.bandcamp.com/
+- l: Unit Black Flight
+  bc: https://unitblackflight.bandcamp.com/
+  sc: https://soundcloud.com/unitblackflight
+- l: Vector Hold
+  bc: https://vectorhold.bandcamp.com/
+- l: Vellocet
+  bc: https://vellocetstrain.bandcamp.com/releases
+- l: VHS glitch
+  bc: https://vhsglitch.bandcamp.com/
+- l: Vincenzo Oscillato
+  sc: https://soundcloud.com/vincenzo-oscillato
+- l: Volkor X
+  bc: https://volkorx.bandcamp.com/music
+- l: Zombi
+  bc: https://zombi.bandcamp.com/music

@@ -2,17 +2,15 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from '../components/layout'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { content, links, linkText, linksList } from './{Yaml.fields__slug}.module.css'
+import { content, inlineLinks, linkText, linksList } from './{Yaml.fields__slug}.module.css'
 
 let k = 0
 
-const makeURL = (item, getSubLinksLabel = false) => <a key={k++} href={item.u} target="_blank" rel="noreferrer">
-  {
-    item.l
-      ? <><FontAwesomeIcon icon="link" />{getSubLinksLabel && <span className={linkText}>({item.l})</span>}</>
-      : <span className={linkText}>{item.u.replace('https://www.reddit.com', '')}</span>
-  }
-</a>
+const makeURL = (item, getSubLinksLabel = false) => {
+  return <a key={k++} href={item.u} target="_blank" rel="noreferrer">
+    <span className={linkText}>{item.l || item.u.replace('https://www.reddit.com', '')}</span>
+  </a>
+}
 
 function makeInlineLinks(item, getSubLinksLabel = false) {
   const links = []
@@ -59,18 +57,20 @@ function makeInlineLinks(item, getSubLinksLabel = false) {
         <FontAwesomeIcon icon={['fab', 'youtube']} />
       </a>
     )
-  if (item.hasOwnProperty("u")) {
-    links.unshift(makeURL(item, getSubLinksLabel))
+  if (item.hasOwnProperty("u") && Object.keys(item).length >= 2) {
+    links.unshift(
+      <a key={k++} href={item.u} target="_blank" rel="noreferrer">
+        <><FontAwesomeIcon icon="link" />{getSubLinksLabel && <span className={linkText}>({item.l})</span>}</>
+      </a>
+    )
   }
 
   if (links.length > 0) return links
 }
 
 function makeListOfLinks(item) {
-  if (item.hasOwnProperty('links')) {
-    let key = 0
-    return <ul>{item.links.map(item => <li key={key++}>{makeURL(item)}</li>)}</ul>
-  }
+  let key = 0
+  return <ul>{item.links.map(item => <li key={key++}>{makeURL(item)}</li>)}</ul>
 }
 
 function makeContent(c, depth) {
@@ -99,13 +99,16 @@ function makeContent(c, depth) {
           {c.i.map(item => {
             return (
               <li key={k++}>
-                <span>{item.l}</span>
-                <span key={k++} className={links}>
+                {item.l && <span>{item.l}</span>}
+                {(!(item.hasOwnProperty("u") && Object.keys(item).length === 1)) && <span key={k++} className={inlineLinks}>
                   {makeInlineLinks(item)}
-                </span>
-                <div className={linksList}>
+                </span>}
+                {(item.hasOwnProperty("u") && Object.keys(item).length === 1) && <span>
+                  {makeURL(item)}
+                </span>}
+                {item.hasOwnProperty('links') && <div className={linksList}>
                   {makeListOfLinks(item)}
-                </div>
+                </div>}
                 {item.hasOwnProperty("i") && (
                   <ul key={k++}>
                     {item.i.map(subitem => {

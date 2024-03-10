@@ -40,13 +40,10 @@
 
 /* LIENS */
 
-.links {
-    margin: 0 0.3em;
-}
-
-.links a {
-    margin: 0 0.2em;
-
+.inlineLinks {
+    display: inline-flex;
+    gap: 0.2em;
+    margin-left: 0.5em;
 }
 
 .links a:hover .linkText {
