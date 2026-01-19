@@ -31,7 +31,7 @@ const tagged = await getCollection("cards", (post) =>
                         <td class="px-4">{card.data.title}</td>
                         <td class="px-4">
                             <a
-                                href={"/" + card.id}
+                                href={"/me/" + card.id}
                                 style={{ whiteSpace: "nowrap" }}
                             >
                                 {card.id}
