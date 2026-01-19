@@ -1,0 +1,46 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+export async function getStaticPaths() {
+    const tags = await getCollection("tags");
+    return [
+        ...tags.map((tag) => ({
+            params: { slug: tag.data.slug },
+        })),
+    ];
+}
+const { slug } = Astro.params;
+const tagged = await getCollection("cards", (post) =>
+    post.data.tags?.includes(slug),
+);
+---
+
+<Layout pageTitle={"tagged with " + slug}>
+    <table class="border-collapse tagtable">
+        <thead>
+            <tr class="border border-stone-300 text-stone-500">
+                <th class="font-normal uppercase">title</th>
+                <th class="font-normal uppercase">link</th>
+                <th class="font-normal uppercase">tagged with</th>
+            </tr>
+        </thead>
+        <tbody>
+            {
+                tagged.map((card) => (
+                    <tr class="border border-stone-300">
+                        <td class="px-4">{card.data.title}</td>
+                        <td class="px-4">
+                            <a
+                                href={"/" + card.id}
+                                style={{ whiteSpace: "nowrap" }}
+                            >
+                                {card.id}
+                            </a>
+                        </td>
+                        <td class="px-4">{card.data.tags.sort().join(", ")}</td>
+                    </tr>
+                ))
+            }
+        </tbody>
+    </table>
+</Layout>

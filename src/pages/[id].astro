@@ -1,0 +1,24 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import Card from "../components/card";
+export async function getStaticPaths() {
+    const cards = await getCollection("cards");
+    return [
+        ...cards.map((card) => ({
+            params: { id: card.id },
+        })),
+    ];
+}
+const cards = await getCollection("cards");
+const { id } = Astro.params;
+const card = cards.find((p) => p.id === id);
+
+if (!card) {
+    throw new Error(`Card with id ${id} not found`);
+}
+---
+
+<Layout pageTitle={card.data.title} taggedWith={card.data.tags}>
+    <Card card={card} />
+</Layout>
