@@ -30,7 +30,7 @@ const tagged = cards.filter(post => post.data.tags?.includes(slug));
                         <td class="px-4">{card.data.title}</td>
                         <td class="px-4">
                             <a
-                                    href={'/' + card.id}
+                                    href={'/me/' + card.id}
                                     style={{whiteSpace: "nowrap"}}
                             >
                                 {card.id}
