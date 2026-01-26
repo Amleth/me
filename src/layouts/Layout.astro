@@ -1,71 +1,68 @@
 ---
 import "../styles/global.css";
-import { getCollection } from "astro:content";
+import {getTags} from "../helpers.ts";
 export interface Props {
-  pageTitle?: string;
-  pageSubtitle?: string;
-  taggedWith?: string[];
+    pageTitle?: string;
+    pageSubtitle?: string;
+    taggedWith?: string[];
 }
 const {
-  pageTitle = "",
-  pageSubtitle = "",
-  taggedWith = [],
+    pageTitle = "",
+    pageSubtitle = "",
+    taggedWith = [],
 } = Astro.props as Props;
-const tags = (await getCollection("tags")).sort((a, b) =>
-  a.data.slug.localeCompare(b.data.slug, undefined, {
-    sensitivity: "base",
-  }),
-);
+const tags = getTags();
 ---
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/me/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+    <meta name="viewport" content="width=device-width"/>
     <title>{pageTitle}</title>
-  </head>
-  <body class="font-['AHAMONO']">
-    <div class="flex">
-      <div class="min-w-72 h-screen text-right">
+</head>
+<body class="font-['AHAMONO']">
+<div class="flex">
+    <div class="min-w-72 h-screen text-right">
         <h1 class="p-8 h-32 font-bold">ᛏᚼᚬᛘᛅ</h1>
         <table class="float-right mr-8">
-          <tbody>
+            <tbody>
             {
-              tags.map((_) => (
-                <tr>
-                  <td>
-                    <a href={"/me/tag/" + _.data.slug}>{_.data.slug}</a>{" "}
-                  </td>
-                  <td class="pl-2 text-stone-500">{_.data.count}</td>
-                </tr>
-              ))
+                tags.map((_) => (
+                        <tr>
+                            <td>
+                                <a href={"/tag/" + _.data.slug}>{_.data.slug}</a>{" "}
+                            </td>
+                            <td class="pl-2 text-stone-500">{_.data.count}</td>
+                        </tr>
+                ))
             }
-          </tbody>
+            </tbody>
         </table>
-      </div>
-      <div class="border-stone-300 border-l border-solid w-full">
+    </div>
+    <div class="border-stone-300 border-l border-solid w-full">
         <header class="p-8 h-32">
-          <h2 class="text-[DeepPink]">{pageTitle}</h2>
-          {
-            pageSubtitle && (
-              <h3 class="float-right font-normal text-stone-400 italic">
-                ————&nbsp;{pageSubtitle}
-              </h3>
-            )
-          }
-          {
-            taggedWith.length > 0 && (
-              <div class="text-stone-400">
-                tags: {taggedWith.sort().join(", ")}
-              </div>
-            )
-          }
+            <h2 class="text-[DeepPink]">{pageTitle}</h2>
+            {
+                pageSubtitle && (
+                            <h3 class="float-right font-normal text-stone-400 italic">
+                                ————&nbsp;{pageSubtitle}
+                            </h3>
+                )
+            }
+            {
+                taggedWith.length > 0 && (
+                            <div class="text-stone-400">
+                                tags: {taggedWith.sort().join(", ")}
+                            </div>
+                )
+            }
         </header>
         <main class="pb-8 pl-8">
-          <slot />
+            <slot/>
         </main>
-      </div>
-    </div>c
-  </body>
+    </div>
+</div>
+c
+</body>
 </html>

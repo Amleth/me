@@ -1,17 +1,17 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { getCollection } from "astro:content";
 import Card from "../components/card";
+import {getCards} from "../helpers.ts";
 export async function getStaticPaths() {
-    const cards = await getCollection("cards");
+    const cards = getCards();
     return [
         ...cards.map((card) => ({
-            params: { id: card.id },
+            params: {id: card.id},
         })),
     ];
 }
-const cards = await getCollection("cards");
-const { id } = Astro.params;
+const {id} = Astro.params;
+const cards = getCards();
 const card = cards.find((p) => p.id === id);
 
 if (!card) {
@@ -20,5 +20,5 @@ if (!card) {
 ---
 
 <Layout pageTitle={card.data.title} taggedWith={card.data.tags}>
-    <Card card={card} />
+    <Card card={card}/>
 </Layout>

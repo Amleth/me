@@ -9,7 +9,6 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   output: 'static',
   site: 'https://amleth.github.io',
-  base: '/me',
   integrations: [react()],
 
   vite: {
