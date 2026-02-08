@@ -1,6 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import slugify from 'slugify';
 import yaml from 'yaml';
 
 const CARDS_PATH = './src/cards/';
@@ -29,6 +28,13 @@ export function getTags() {
         );
 }
 
+function getFilenameWithoutExtension(filepath) {
+    const filename = path.basename(filepath);
+    const extension = path.extname(filename);
+    return filename.slice(0, -extension.length);
+}
+
+
 export function getCards() {
     const files = fs.readdirSync(CARDS_PATH);
     const cards: any[] = []
@@ -36,8 +42,8 @@ export function getCards() {
         if (f.startsWith('_')) continue;
         const card = yaml.parse(fs.readFileSync(path.join(CARDS_PATH, f), 'utf8'));
         cards.push({
-            id: slugify(card.title, {lower: true}),
-            slug: slugify(card.title, {lower: true}),
+            id: getFilenameWithoutExtension(f),
+            slug: getFilenameWithoutExtension(f),
             data: card
         });
     }
