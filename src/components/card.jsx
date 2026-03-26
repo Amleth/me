@@ -1,14 +1,14 @@
-import {content, inlineLinks, linkText, linksList} from './card.module.css'
+import { content, inlineLinks, linkText, linksList } from './card.module.css'
 
-import {FaBandcamp} from "react-icons/fa6"
-import {FaInstagram} from "react-icons/fa6"
-import {FaRedditAlien} from "react-icons/fa6"
-import {FaSoundcloud} from "react-icons/fa6"
-import {FaSpotify} from "react-icons/fa6"
-import {FaWikipediaW} from "react-icons/fa6"
-import {FaYoutube} from "react-icons/fa6"
+import { FaBandcamp } from "react-icons/fa6"
+import { FaInstagram } from "react-icons/fa6"
+import { FaRedditAlien } from "react-icons/fa6"
+import { FaSoundcloud } from "react-icons/fa6"
+import { FaSpotify } from "react-icons/fa6"
+import { FaWikipediaW } from "react-icons/fa6"
+import { FaYoutube } from "react-icons/fa6"
 
-import {FaLink} from "react-icons/fa6"
+import { FaLink } from "react-icons/fa6"
 
 let k = 0
 
@@ -26,49 +26,49 @@ function makeInlineLinks(item, getSubLinksLabel = false) {
     if (item.hasOwnProperty("bc"))
         links.push(
             <a key={k++} href={item.bc} target="_blank" rel="noreferrer">
-                <FaBandcamp size={SIZE}/>
+                <FaBandcamp size={SIZE} />
             </a>
         )
     if (item.hasOwnProperty("in"))
         links.push(
             <a key={k++} href={item.in} target="_blank" rel="noreferrer">
-                <FaInstagram size={SIZE}/>
+                <FaInstagram size={SIZE} />
             </a>
         )
     if (item.hasOwnProperty("re"))
         links.push(
             <a key={k++} href={item.re} target="_blank" rel="noreferrer">
-                <FaRedditAlien size={SIZE}/>
+                <FaRedditAlien size={SIZE} />
             </a>
         )
     if (item.hasOwnProperty("sc"))
         links.push(
             <a key={k++} href={item.sc} target="_blank" rel="noreferrer">
-                <FaSoundcloud size={SIZE}/>
+                <FaSoundcloud size={SIZE} />
             </a>
         )
     if (item.hasOwnProperty("sp"))
         links.push(
             <a key={k++} href={item.sp} target="_blank" rel="noreferrer">
-                <FaSpotify size={SIZE}/>
+                <FaSpotify size={SIZE} />
             </a>
         )
     if (item.hasOwnProperty("wp"))
         links.push(
             <a key={k++} href={item.wp} target="_blank" rel="noreferrer">
-                <FaWikipediaW size={SIZE}/>
+                <FaWikipediaW size={SIZE} />
             </a>
         )
     if (item.hasOwnProperty("yt"))
         links.push(
             <a key={k++} href={item.yt} target="_blank" rel="noreferrer">
-                <FaYoutube size={SIZE}/>
+                <FaYoutube size={SIZE} />
             </a>
         )
     if (item.hasOwnProperty("u") && Object.keys(item).length >= 2) {
         links.unshift(
             <a key={k++} href={item.u} target="_blank" rel="noreferrer">
-                <><FaLink size={SIZE}/>{getSubLinksLabel && <span className={linkText}>({item.l})</span>}</>
+                <><FaLink size={SIZE} />{getSubLinksLabel && <span className={linkText}>({item.l})</span>}</>
             </a>
         )
     }
@@ -111,11 +111,11 @@ function makeContent(c, depth) {
                             {item.l && <span>{item.l}</span>}
                             {(!(item.hasOwnProperty("u") && Object.keys(item).length === 1)) &&
                                 <span key={k++} className={inlineLinks}>
-                {makeInlineLinks(item)}
-              </span>}
+                                    {makeInlineLinks(item)}
+                                </span>}
                             {(item.hasOwnProperty("u") && Object.keys(item).length === 1) && <span>
-                {makeURL(item)}
-              </span>}
+                                {makeURL(item)}
+                            </span>}
                             {item.hasOwnProperty('links') && <div className={linksList}>
                                 {makeListOfLinks(item)}
                             </div>}
@@ -132,6 +132,7 @@ function makeContent(c, depth) {
                                     })}
                                 </ul>
                             )}
+                            {typeof item === "string" && <a href={item}>{item}</a>}
                         </li>
                     )
                 })}
@@ -148,6 +149,6 @@ function makeContent(c, depth) {
     return content
 }
 
-export default function ({card}) {
+export default function ({ card }) {
     return <div className={content}>{makeContent(card.data, 0)}</div>
 }
